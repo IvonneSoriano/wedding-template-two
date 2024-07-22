@@ -1,0 +1,40 @@
+.rsv{
+    margin: 50px 0;
+    padding: 25px;
+    text-align: center;
+    .wrap{
+        padding: 50px 25px;
+        border: 1px solid $black;
+       .control{
+        text-align: left;
+        input, textarea{
+            @include libre-baskerville-regular;
+            width: 100%;
+            border: 1px solid $black;
+            border-radius: 0;
+            padding: 10px;
+            margin-bottom: 10px;
+            &:focus{
+                border-radius: 0;
+            }
+        }
+        label{
+            margin-bottom: 10px;
+            font-size: 12px;
+        }
+        
+       }
+    }
+    @media (min-width:768px) {
+        width: 50%;
+        margin: 50px auto;
+        .wrap{
+            padding: 50px;
+            .control{
+                input, textarea{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}

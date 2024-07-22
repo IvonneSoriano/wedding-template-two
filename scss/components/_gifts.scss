@@ -1,0 +1,22 @@
+.gifts{
+    padding: 25px;
+    text-align: center;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    li{
+        margin: 20px 0;
+    }
+    @media (min-width:768px) {
+        max-width: 75%;
+        ul{
+            padding: 0;
+            max-width: 75%;
+            margin: auto;
+            display: flex;
+            li{
+                width: 50%;
+            }
+        }
+    }
+}

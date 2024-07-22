@@ -1,0 +1,26 @@
+@import "./color";
+@import "./components/banner";
+@import "./components/saveTheDate";
+@import "./components/calendar";
+@import "./components/rsv";
+@import "./components/planner";
+@import "./components/gifts";
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    @include libre-baskerville-regular;
+    overflow-x: hidden; 
+}
+ul{
+    list-style: none;
+}
+.madeby{
+    color: white;
+    background-color: $black;
+    text-align: center;
+    padding: 25px;
+  
+  }

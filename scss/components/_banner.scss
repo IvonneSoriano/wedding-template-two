@@ -1,0 +1,34 @@
+.banner{
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    background-image: url(../img/cp.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        color: white;
+        @include baskervville-sc-regular;
+        h1{
+            
+            font-weight: 700;
+            font-size: 40px;
+            text-align: center;
+         }
+    }
+    @media (min-width:768px) {
+        background-size: 106%;
+        .info{
+            h1{
+                font-size: 70px;
+            }
+        }
+    }
+}
